@@ -3,9 +3,9 @@ public class ShoppingList2
 public static void main(String args[])
     {
     
-    int x=Integer.parseInt(args[0]);
+    int item=Integer.parseInt(args[0]);
         String shopString;    
-	switch(x){
+	switch(item){
             case 1:  shopString = "book";
                      break;
             case 2:  shopString = "monitor";
